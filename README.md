@@ -44,5 +44,3 @@ trusted integration gate is implemented and proven. That gate must bind sanitize
 evidence from reviewed, pinned revisions to the exact services head SHA; a new
 push requires fresh evidence. No technically enforced integration check exists yet.
 Public workflows must never execute untrusted PR code with privileged secrets.
-
-[Deliberate gate proof](missing-gate-proof.md)

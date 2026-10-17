@@ -44,3 +44,10 @@ trusted integration gate is implemented and proven. That gate must bind sanitize
 evidence from reviewed, pinned revisions to the exact services head SHA; a new
 push requires fresh evidence. No technically enforced integration check exists yet.
 Public workflows must never execute untrusted PR code with privileged secrets.
+
+## M0 trusted reporting proof
+
+This README-only change exercises synthetic reporting and exact-revision gate
+behavior. It performs no PostgreSQL or API integration and publishes no private
+source, logs, or artifacts. Runtime changes remain blocked pending full trusted
+integration. A new services head requires fresh reporting evidence.
